@@ -107,48 +107,48 @@ class SPManager{
           trick = new CharTrick("北洛", 10);
           char.addTrick(trick);
       break;
-      // case "yqs1b":
-      //     char = new SpecialCharacter("yqs1b", "尹千觞", "大狗", 6, "秋", "久把江湖宿，落拓年复年，唤醪濯尘骨，钓月伴酒仙。");
-      //     trick = new ComboTrick("醉梦江湖", 20);
-      //     char.addTrick(trick);
-      //     trick = new RevealTrick(1);
-      //     char.addTrick(trick);
-      // break;
-      // case "hy1b":
-      //     char = new SpecialCharacter("hy1b", "红玉", "兔子", 6, "秋", "昔日匣中三尺水，曾与明月斗青霜。");
-      //     trick = new ComboTrick("剑舞红袖", 30);
-      //     char.addTrick(trick);
-      //     trick = new UnnamedBanTrick();
-      //     char.addTrick(trick);
-      // break;
-      // case "xl1b":
-      //     char = new SpecialCharacter("xl1b", "襄铃", "熊猫", 6, "夏", "笑里秋千轻自语，背人斗草弄晴丝。");
-      //     trick = new ComboTrick("黑衣少侠传", 30);
-      //     char.addTrick(trick);
-      //     trick = new DealTrick("下一回合一定出现一个《古剑奇谭一》的主要角色", ["百里屠苏", "风晴雪", "红玉", "尹千觞", "方兰生", "襄铃"], true);
-      //     char.addTrick(trick);
-      // break;
-      // case "fls1b":
-      //     char = new SpecialCharacter("fls1b", "方兰生", "蓝鲲", 6, "春", "庭中生嘉树，华叶自飘摇，温然发秀质，馥兰映琼瑶。");
-      //     trick = new ComboTrick("永相随", 20);
-      //     char.addTrick(trick);
-      //     trick = new RevealTrick(1);
-      //     char.addTrick(trick);
-      // break;
-      // case "fqx1b":
-      //     char = new SpecialCharacter("fqx1b", "风晴雪", "绵羊", 6, "春", "寿无金石固，随时爱景光，与君一执手，衣袖十年香。");
-      //     trick = new DealTrick("若焦炭在公共卡池中，则下一回合一定出现焦炭", ["焦炭"], true);
-      //     char.addTrick(trick);
-      //     trick = new ComboTrick("厨房功夫", 20);
-      //     char.addTrick(trick);
-      // break;
-      // case "blts1a":
-      //     char = new SpecialCharacter("blts1a", "百里屠苏", "天墉", 4, "冬", "许向长空倾碧血，由他业火寸心摧。");
-      //     trick = new CharTrick("古剑焚寂", 15);
-      //     char.addTrick(trick);
-      //     trick = new DealTrick("下一回合一定出现一个《古剑奇谭一》的主要角色", ["百里屠苏", "风晴雪", "红玉", "尹千觞", "方兰生", "襄铃"], true);
-      //     char.addTrick(trick);
-      // break;
+      case "yqs1b":
+          char = new SpecialCharacter("yqs1b", "尹千觞", "大狗", 6, "秋", "久把江湖宿，落拓年复年，唤醪濯尘骨，钓月伴酒仙。");
+          trick = new ComboTrick("醉梦江湖", 20);
+          char.addTrick(trick);
+          trick = new RevealTrick(1);
+          char.addTrick(trick);
+      break;
+      case "hy1b":
+          char = new SpecialCharacter("hy1b", "红玉", "兔子", 6, "秋", "昔日匣中三尺水，曾与明月斗青霜。");
+          trick = new ComboTrick("剑舞红袖", 30);
+          char.addTrick(trick);
+          trick = new UnnamedBanTrick();
+          char.addTrick(trick);
+      break;
+      case "xl1b":
+          char = new SpecialCharacter("xl1b", "襄铃", "熊猫", 6, "夏", "笑里秋千轻自语，背人斗草弄晴丝。");
+          trick = new ComboTrick("黑衣少侠传", 30);
+          char.addTrick(trick);
+          trick = new DealTrick("下一回合一定出现一个《古剑奇谭一》的主要角色", ["百里屠苏", "风晴雪", "红玉", "尹千觞", "方兰生", "襄铃"], true);
+          char.addTrick(trick);
+      break;
+      case "fls1b":
+          char = new SpecialCharacter("fls1b", "方兰生", "蓝鲲", 6, "春", "庭中生嘉树，华叶自飘摇，温然发秀质，馥兰映琼瑶。");
+          trick = new ComboTrick("永相随", 20);
+          char.addTrick(trick);
+          trick = new RevealTrick(1);
+          char.addTrick(trick);
+      break;
+      case "fqx1b":
+          char = new SpecialCharacter("fqx1b", "风晴雪", "绵羊", 6, "春", "寿无金石固，随时爱景光，与君一执手，衣袖十年香。");
+          trick = new DealTrick("若焦炭在公共卡池中，则下一回合一定出现焦炭", ["焦炭"], true);
+          char.addTrick(trick);
+          trick = new ComboTrick("厨房功夫", 20);
+          char.addTrick(trick);
+      break;
+      case "blts1a":
+          char = new SpecialCharacter("blts1a", "百里屠苏", "天墉", 4, "冬", "许向长空倾碧血，由他业火寸心摧。");
+          trick = new CharTrick("古剑焚寂", 15);
+          char.addTrick(trick);
+          trick = new DealTrick("下一回合一定出现一个《古剑奇谭一》的主要角色", ["百里屠苏", "风晴雪", "红玉", "尹千觞", "方兰生", "襄铃"], true);
+          char.addTrick(trick);
+      break;
       case "ar2a":
           char = new SpecialCharacter("ar2a", "阿阮", "神女", 4, "春", "云垂水镜参差影，十二峰头月欲西。");
           trick = new ComboTrick("露草流萤", 15);
@@ -204,18 +204,18 @@ class SPManager{
         trick = new RevealTrick(1);
         char.addTrick(trick);
       break;
-      // case "blts1b":
-      //     char = new SpecialCharacter("blts1b", "百里屠苏", "黑猫", 6, "冬", "眼底无故人，世事冷如铁。谁与长相约，眉间刺新血。");
-      //     trick = new DealTrick("若古剑焚寂在公共卡池中，则下一回合一定出现古剑焚寂", ["古剑焚寂"], true);
-      //     char.addTrick(trick);
-      //     trick = new ComboTrick("桃花幻梦", 30);
-      //     char.addTrick(trick);
-      // break;
-      // case "fqx1a":
-      //     char = new SpecialCharacter("fqx1a", "风晴雪", "凤曦", 4, "春", "好向寒节报花信，春风一脉动幽都。");
-      //     trick = new CharTrick("百里屠苏", 15);
-      //     char.addTrick(trick);
-      // break;
+      case "blts1b":
+          char = new SpecialCharacter("blts1b", "百里屠苏", "黑猫", 6, "冬", "眼底无故人，世事冷如铁。谁与长相约，眉间刺新血。");
+          trick = new DealTrick("若古剑焚寂在公共卡池中，则下一回合一定出现古剑焚寂", ["古剑焚寂"], true);
+          char.addTrick(trick);
+          trick = new ComboTrick("桃花幻梦", 30);
+          char.addTrick(trick);
+      break;
+      case "fqx1a":
+          char = new SpecialCharacter("fqx1a", "风晴雪", "凤曦", 4, "春", "好向寒节报花信，春风一脉动幽都。");
+          trick = new CharTrick("百里屠苏", 15);
+          char.addTrick(trick);
+      break;
       case "ly1a":
           char = new SpecialCharacter("ly1a", "陵越", "掌门", 4, "冬", "任侠为道守仙门，见素抱朴未忘沉。");
           trick = new SwapTrick();
